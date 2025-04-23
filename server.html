@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Media API</title>
+</head>
+<body>
+  <h1>Welcome to the Media API</h1>
+  <p>This API allows you to manage movies, series, and songs using the following endpoints:</p>
+  <ul>
+    <li><strong>GET /movies</strong>: Get all movies</li>
+    <li><strong>POST /movies</strong>: Add a new movie</li>
+    <li><strong>PUT /movies/:id</strong>: Update a movie by ID</li>
+    <li><strong>DELETE /movies/:id</strong>: Delete a movie by ID</li>
+    <li>Same for <code>/series</code> and <code>/songs</code></li>
+  </ul>
+  <p>Data format (example for movies):</p>
+  <pre>{
+  "title": "The wolf of wall street",
+  "director": "Martin Scorsese",
+  "year": 2013
+}</pre>
+</body>
+</html>
